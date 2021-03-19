@@ -15,9 +15,9 @@ namespace Homework5.Controllers
 
         private readonly RandomInt _randomService;
 
-        public HomeController(RandomInt timeServ)
+        public HomeController(RandomInt randomServ)
         {
-            _randomService = timeServ;
+            _randomService = randomServ;
         }
         public int Index()
         {
